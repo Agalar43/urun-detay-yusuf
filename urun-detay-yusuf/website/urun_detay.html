@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Ticaret</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+
+<body>
+  <!-- header başlangıç -->
+
+  <header>
+    <div class="global-notification">
+      <p>
+        BLACK FRİDAY - SEÇİLİ ÜRÜNLERDE %30 İNDİRİM
+        <a href="shop.html"> SATIN AL</a>
+      </p>
+    </div>
+    <div class="header-row">
+      <div class="container">
+        <div class="header-wrapper">
+          <div class="header-left">
+            <a href="#" class="logo">LOGO</a>
+          </div>
+          <div class="header-center">
+            <div class="wrap">
+              <div class="search">
+                <input type="text" class="searchTerm" placeholder="Ürün, Kategori, Marka Ara" />
+                <button type="submit" class="searchButton">
+                  <i class="bi bi-search"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="header-right">
+            <div class="header-right-links">
+              <div class="header-cart">
+                <a href="sepet.html" class="header-cart-link">
+                  <i class="bi bi-cart2"></i>
+                  <span class="header-cart-count">0</span>
+                </a>
+              </div>
+              <a href="" class="header-account">
+                <div class="btn-group">
+                  <button class="button" style="vertical-align: middle">
+                    <span>Giriş Yap </span>
+                  </button>
+                  <button class="button" style="vertical-align: middle">
+                    <span>Kayıt Ol </span>
+                  </button>
+                </div>
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- header son -->
+  <section class="py-5">
+    <div class="container" >
+      <div class="row gx-5" id= >
+        <aside class="col-lg-6" id=>
+          <div class="urun-buyuk-foto border rounded-4 mb-3 d-flex justify-content-center"  >
+            <a data-fslightbox="mygalley" id="myImage" class="rounded-4 urun-buyuk-foto1" target="_blank" data-type="image"
+              href="">
+              <img id="pic"  style="max-width: 100%; max-height: 100vh; margin: auto;" class="rounded-4 fit"
+                src="/images/foto1.jpg" />
+            </a>
+          </div>
+          <div class="urun-kucukfotolar d-flex justify-content-center mb-3">
+            <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank" data-type="image"
+              href=""
+              class="item-thumb">
+              <img id="pic1" onmouseover="changeImage('/images/foto1.jpg',1)" width="60" height="60" class="rounded-2" src="images/foto1.jpg" />
+            </a>
+            <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank" data-type="image"
+              href=""
+              class="item-thumb">
+              <img id="pic2" onmouseover="changeImage('/images/foto2.jpg',2)" width="60" height="60" class="rounded-2" src="images/foto2.jpg" />
+            </a>
+            <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank" data-type="image"
+              href=""
+              class="item-thumb">
+              <img id="pic3" onmouseover="changeImage('/images/foto3.jpg',3)" width="60" height="60" class="rounded-2" src="images/foto3.jpg" />
+            </a>
+            <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank" data-type="image"
+              href=""
+              class="item-thumb">
+              <img id="pic4" onmouseover="changeImage('/images/foto4.jpg',4)" width="60" height="60" class="rounded-2" src="images/foto4.jpg" />
+            </a>
+            <a data-fslightbox="mygalley" class="border mx-1 rounded-2" target="_blank" data-type="image"
+              href=""
+              class="item-thumb">
+              <img id="pic5" onmouseover="changeImage('/images/foto5.jpg',5)" width="60" height="60" class="rounded-2" src="images/foto5.jpg" />
+            </a>
+          </div>
+        
+        </aside>
+        <main class="col-lg-6">
+          <div class="ps-lg-3 " >
+            <h4 class="title text-dark">
+              İphone 15
+            </h4>
+            <a href="">
+            <div class="d-flex flex-row my-3" >
+              <div class="text-warning mb-1 me-2">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span class="ms-1">
+                  4.2
+                </span>
+              </div>
+              <a href="#">154 Değerlendirme</a>
+              <span class="text-success ms-2">Stokta Var</span>
+            </div>
+          </a>
+
+            <div class="mb-3">
+              <span class="h5">53.000 TL</span>
+
+            </div>
+
+            
+
+            <div class="row">
+
+
+              <dt class="col-3">Renk:</dt>
+              <dd class="col-9">Uzay Mavisi</dd>
+
+              <dt class="col-3">Materyali:</dt>
+              <dd class="col-9">Titanyum</dd>
+
+              <dt class="col-3">İşletim Sistemi:</dt>
+              <dd class="col-9">İOS</dd>
+            </div>
+
+            <hr />
+
+            <div class="row mb-4">
+              <div class="col-md-4 col-6">
+                <label class="mb-2">Model/Beden</label>
+                <select class="form-select border border-secondary" style="height: 35px;">
+                  <option>Pro</option>
+                  <option>Pro Max</option>
+                  <option>Plus</option>
+                </select>
+              </div>
+              
+              <div class="col-md-4 col-6 mb-3">
+                <label class="mb-2 d-block">Adet</label>
+                <div class="input-group mb-3" style="width: 170px;">
+                  <button class="btn btn-white border border-secondary px-3" type="button" id="button-addon1"
+                    data-mdb-ripple-color="dark">
+                    <i class="fas fa-minus"></i>
+                  </button>
+                  <input type="text" class="form-control text-center border border-secondary" placeholder="14"
+                    aria-label="Example text with button addon" aria-describedby="button-addon1" />
+                  <button class="btn btn-white border border-secondary px-3" type="button" id="button-addon2"
+                    data-mdb-ripple-color="dark">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="btn btn-warning shadow-0"> Satın Al </a>
+            <a href="#" class="btn btn-warning shadow-0"> <i class="me-1 fa fa-shopping-basket"></i> Sepete Ekle </a>
+            <a href="#" class="btn btn-light border border-warning py-2 icon-hover px-3"> <i
+                class="me-1 fa fa-heart fa-lg"></i> Favorilere Ekle </a>
+          </div>
+        </main>
+      </div>
+    </div>
+  </section>
+  
+
+  <section class="bg-light border-top py-4">
+    <div class="container">
+      <div class="row gx-4">
+        <div class="col-lg-8 mb-4">
+          <div class="border rounded-2 px-3 py-2 bg-white">
+           
+            <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+              <li class="nav-item d-flex" role="presentation">
+                <a class="nav-link d-flex align-items-center justify-content-center w-100 active" id="ex1-tab-1"
+                  data-mdb-toggle="pill" href="#ex1-pills-1" role="tab" aria-controls="ex1-pills-1"
+                  aria-selected="true">Ürün Özellikleri</a>
+              </li>
+              
+            </ul>
+
+            
+            <!--Ürün Detaylı Özellikleri-->
+            <div class="tab-content" id="ex1-content">
+              <div class="tab-pane fade show active" id="ex1-pills-1" role="tabpanel" aria-labelledby="ex1-tab-1">
+                <p>
+                  With supporting text below as a natural lead-in to additional content. Lorem ipsum dolor sit amet,
+                  consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                  nulla
+                  pariatur.
+                </p>
+
+              </div>
+              <table class="table border mt-3 mb-2">
+                <tr>
+                  <th class="py-2">Display:</th>
+                  <td class="py-2">13.3-inch LED-backlit display with IPS</td>
+                </tr>
+                <tr>
+                  <th class="py-2">Processor capacity:</th>
+                  <td class="py-2">2.3GHz dual-core Intel Core i5</td>
+                </tr>
+                <tr>
+                  <th class="py-2">Camera quality:</th>
+                  <td class="py-2">720p FaceTime HD camera</td>
+                </tr>
+                <tr>
+                  <th class="py-2">Memory</th>
+                  <td class="py-2">8 GB RAM or 16 GB RAM</td>
+                </tr>
+                <tr>
+                  <th class="py-2">Graphics</th>
+                  <td class="py-2">Intel Iris Plus Graphics 640</td>
+                </tr>
+              </table>
+            </div>
+            
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="bg-light border-top py-4">
+    <div class="container">
+      <div class="row gx-4">
+        <div class="col-lg-8 mb-4">
+          <div class="border rounded-2 px-3 py-2 bg-white">
+           
+            <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+              <li class="nav-item d-flex" role="presentation">
+                <a class="nav-link d-flex align-items-center justify-content-center w-100 active" id="ex1-tab-1"
+                  data-mdb-toggle="pill" href="#ex1-pills-1" role="tab" aria-controls="ex1-pills-1"
+                  aria-selected="true">Değerlendirmeler Ve Yorumlar</a>
+              </li>
+              
+            </ul>
+
+            
+            <!--Değerlendirmeler-->
+            <div class="tab-content" id="ex1-content">
+              <div class="tab-pane fade show active" id="ex1-pills-1" role="tabpanel" aria-labelledby="ex1-tab-1">
+                <p>
+                  
+                  <div class="d-flex flex-row my-3" >
+                    <div class="text-warning mb-1 me-2">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                      <span class="ms-1">
+                        4.2
+                      </span>
+                    </div>
+                </p>
+
+              </div>
+              <table class="table border mt-3 mb-2">
+                <tr>
+                  <th>
+                    
+                    <div class="d-flex flex-row my-1" >
+                    <div class="text-warning mb-1 me-2">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <span class="ms-1">
+                        5
+                      </span>
+                      <br>
+                      <span class="text-dark">Yusuf Çayır</span>
+                      
+                    </div>
+                  </th>
+                  
+                  
+                  <th>Ürünü Çok Beğendim</th>
+                  
+                  
+                  
+                  <td class="py-2"></td>
+                </tr>
+                <tr>
+                  <th>
+                    
+                    <div class="d-flex flex-row my-1" >
+                    <div class="text-warning mb-1 me-2">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <span class="ms-1">
+                        5
+                      </span>
+                      <br>
+                      <span class="text-dark">Yusuf Çayır</span>
+                      
+                    </div>
+                  </th>
+                  
+                  
+                  <th>Ürünü Çok Beğendim</th>
+                  
+                  
+                  
+                  <td class="py-2"></td>
+                </tr>
+                <tr>
+                  <th>
+                    
+                    <div class="d-flex flex-row my-1" >
+                    <div class="text-warning mb-1 me-2">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <span class="ms-1">
+                        5
+                      </span>
+                      <br>
+                      <span class="text-dark">Berkay Ekit</span>
+                      
+                    </div>
+                  </th>
+                  
+                  
+                  <th>Ürünü Çok Beğendim</th>
+                  
+                  
+                  
+                  <td class="py-2"></td>
+                </tr>
+                <tr>
+                  <th>
+                    
+                    <div class="d-flex flex-row my-1" >
+                    <div class="text-warning mb-1 me-2">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <span class="ms-1">
+                        4
+                      </span>
+                      <br>
+                      <span class="text-dark">Umutcan Gülher</span>
+                      
+                    </div>
+                  </th>
+                  
+                  
+                  <th>Ürünü Çok Beğendim</th>
+                  
+                  
+                  
+                  <td class="py-2"></td>
+                </tr>
+              </table>
+            </div>
+            
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <footer class="footer-section">
+    <div class="container">
+        <div class="footer-content pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href=""><img src="" class="img-fluid" alt="logo"></a>
+                        </div>
+                        <div class="footer-text">
+                            <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                            elit,Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="footer-social-icon">
+                            <span>Takip Et</span>
+                            <a href=""><i class="bi bi-facebook facebook-bg"></i></a>
+                            <a href=""><i class="bi bi-twitter twitter-bg"></i></a>
+                            <a href=""><i class="bi bi-google google-bg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Kategoriler</h3>
+                        </div>
+                        <ul>
+                            <li><a href="">ad</a></li>
+                            <li><a href="">ad</a></li>
+                            <li><a href="">ad</a></li>
+                            <li><a href="">ad</a></li>
+                            <li><a href="">ad</a></li>
+                            
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>Üye Ol</h3>
+                        </div>
+                        <div class="footer-text mb-25">
+                            <p>Yeni yayınlarımıza abone olmayı unutmayın, lütfen aşağıdaki formu doldurun.</p>
+                        </div>
+                        <div class="subscribe-form">
+                            <form action="#">
+                                <input type="text" placeholder="Email Adres">
+                                <button><i class="bi bi-telegram"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                    <div class="copyright-text">
+                        <p>Telif Hakkı &copy; 2024, Tüm Hakları Saklıdır <a href="">berkay</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                    <div class="footer-menu">
+                      
+                        <ul>
+                        
+                            <li><a href="#">ad</a></li>
+                            <li><a href="#">ad</a></li>
+                            <li><a href="#">ad</a></li>
+                            <li><a href="#">ad</a></li>
+                            <li><a href="#">ad</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="a.js"></script>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
